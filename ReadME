@@ -15,7 +15,6 @@ num_sides = 6
 total_combinations = num_sides * num_sides
 print(f"The total number of combinations is {total_combinations}")
 
-Output:
 
 Question:
 
@@ -41,9 +40,6 @@ for i in range(num_sides):
 for row in combination_matrix:
     print(row)
 
-
-
-Output:
 
 
 Question:
@@ -86,5 +82,3 @@ for sum, occurrences in sum_occurrences.items():
     print(f"P(Sum = {sum}) = {probability}")
 
 
-
-Output:
